@@ -1,0 +1,23 @@
+{
+  "name": "learning-tdd",
+  "version": "1.0.0",
+  "description": "Learning TDD concepts to create automated tests to optimize development and allowing greater scability for projects",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "ndoemon src/server.js"
+  },
+  "repository": "https://github.com/JeanJunior18/learning-tdd",
+  "author": "Jean Junior",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^25.2.4",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1"
+  }
+}
